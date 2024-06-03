@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center justify-center gap-[10rem] px-6 text-white border-b-2 border-slate-600'>
                 <div className='py-8'>
-                    <Image src='/footer-img.jpg' alt='footer-img' width={500} height={500} className='w-[15rem] rounded-full grayscale' />
+                    <Image src='/footer-img.png' alt='footer-img' width={500} height={500} className='w-[15rem] rounded-full grayscale' />
                 </div>
                 <div className='border-l-2 border-x-slate-600 py-8 pl-24'>
                     <h2 className={`${bebas.className} text-[2rem]`}>Feedback Time!!</h2>

@@ -9,8 +9,8 @@ const bebas = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 const Projects = () => {
     return (
         <div className='max-w-[1100px] mx-auto pb-20'>
-            <h1 className={`${bebas.className} w-[11rem] mx-auto text-[3.5rem] border-b-2 border-gray-500`}>Projects</h1>
-            <div className='flex flex-wrap gap-4 items-center justify-start my-6'>
+            <h1 className={`${bebas.className} text-center w-[11rem] mx-auto text-[3.5rem] border-b-2 border-gray-500`}>Projects</h1>
+            <div className='flex flex-wrap gap-4 items-center justify-center my-6'>
                 <div className='flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-6'>
                     <Image src='/project1.png' alt='project-img' width={500} height={500} className='w-[20rem] rounded-md hover:contrast-50 hover:transform hover:ease-in' />
                     <div className='flex items-center justify-between'>
