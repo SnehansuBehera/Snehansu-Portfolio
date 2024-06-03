@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bebas_Neue } from 'next/font/google'
-import Image from 'next/image'
 const bebas = Bebas_Neue({ subsets: ['latin'], weight: '400' })
+import Image from 'next/image'
 
 const Skills = () => {
     return (

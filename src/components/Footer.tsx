@@ -20,6 +20,7 @@ const Footer = () => {
                     <Link href='/'><Image src='/github-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
                     <Link href='/'><Image src='/twitter-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
                     <Link href='/'><Image src='/email-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
+                    <Link href='/'><Image src='/discord.png' alt='socials' width={500} height={500} className='w-[1.6rem]' /></Link>
                 </div>
             </div>
             <div className='flex items-center justify-center gap-[10rem] px-6 text-white border-b-2 border-slate-600'>
