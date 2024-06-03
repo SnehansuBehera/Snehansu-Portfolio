@@ -20,7 +20,7 @@ const Navbar = () => {
 
                 </ul>
 
-                <Image src='/navbar-img.png' alt='navbar-img' width={500} height={500} className='hidden xl:block w-[7rem] mt-[-7rem] grayscale' />
+                <Image src='/navbar-img.png' alt='navbar-img' width={500} height={500} className='hidden xl:block w-[6rem] mt-[-7rem] mb-[-2rem] grayscale' />
             </div>
 
 

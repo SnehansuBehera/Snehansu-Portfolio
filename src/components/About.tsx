@@ -10,12 +10,12 @@ import Education from './Education'
 
 const About = () => {
     return (
-        <div className='max-w-[1100px] mx-auto my-4'>
+        <div className='max-w-[1100px] mx-auto my-6 pb-4'>
             <h1 className={`${bebas.className} text-center text-[3.5rem]`}>ABOUT</h1>
             <p className=' font-light w-[22.6rem] mx-auto border-t-2 border-gray-500 pt-2'>KOLKATA BASED TECH + SPORTS ENTHUSIAST</p>
             <div className='py-8 flex items-center justify-center gap-6'>
-                <Image src='/about-img.png' alt='about-img' width={500} height={500} className='w-[26rem] rounded-lg duration-1000 delay-150
-                scale-x hover:scale-x-[-1] hover:grayscale' />
+                <Image src='/about-img.png' alt='about-img' width={500} height={500} className='w-[26rem] grayscale rounded-lg duration-1000 delay-150
+                scale-x hover:scale-x-[-1] hover:grayscale-0' />
                 <div className='px-10'>
                     <div className='flex flex-col justify-center items-start gap-6 w-[20rem] mx-auto'>
                         <h1 className='text-[2rem] font-bold'>Hi, I'm Snehansu.</h1>
