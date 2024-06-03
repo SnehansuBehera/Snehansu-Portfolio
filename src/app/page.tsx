@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Projects from "@/components/Projects";
-import Image from "next/image";
+import Skills from "@/components/Skills";
 import React from "react";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <div>
 
       <About />
+      <Skills />
       <Projects />
 
     </div>

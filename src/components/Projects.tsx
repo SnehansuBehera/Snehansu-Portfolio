@@ -20,6 +20,7 @@ const Projects = () => {
                             <Link href='https://github.com/SnehansuBehera/BMI-CALCULATOR'><PiGithubLogoThin size={26} /></Link>
                         </div>
                     </div>
+                    <p className='text-[0.85rem] text-gray-400'>HTML CSS JAVASCRIPT</p>
                 </div>
                 <div className='flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-6'>
                     <Image src='/project2.png' alt='project-img' width={500} height={500} className='w-[19rem] rounded-md hover:contrast-50' />
@@ -30,8 +31,10 @@ const Projects = () => {
                             <Link href='https://github.com/SnehansuBehera/ForecastPro'><PiGithubLogoThin size={26} /></Link>
                         </div>
                     </div>
+                    <p className='text-[0.85rem] text-gray-400'>HTML CSS JAVASCRIPT</p>
+
                 </div>
-                <div className='flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-6'>
+                <div className='flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-4'>
                     <Image src='/project3.png' alt='project-img' width={500} height={500} className='w-[15rem] h-[9rem] rounded-md hover:contrast-50' />
                     <div className='flex items-center justify-between gap-4'>
                         <p className='text-[1rem] font-bold text-black'>NEXTjs <br /><span className='font-light'>AUTHENTICATION</span></p>
@@ -40,6 +43,8 @@ const Projects = () => {
                             <Link href='https://github.com/SnehansuBehera/Authentication-using-Nextjs'><PiGithubLogoThin size={26} /></Link>
                         </div>
                     </div>
+                    <p className='text-[0.85rem] text-gray-400 text-wrap'>NEXTjs TAILWIND TYPESCRIPT<br />MONGODB NODEMAILER </p>
+
                 </div>
 
             </div>
