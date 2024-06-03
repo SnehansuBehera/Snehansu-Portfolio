@@ -16,10 +16,10 @@ const Footer = () => {
 
                 <h1 className={`${bebas.className} text-[2rem] leading-[2rem] text-white`}>LET'S CONNECT.</h1>
                 <div className='flex items-center justify-center gap-12'>
-                    <Image src='/linkedin-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' />
-                    <Image src='/github-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' />
-                    <Image src='/twitter-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' />
-                    <Image src='/email-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' />
+                    <Link href='/'><Image src='/linkedin-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
+                    <Link href='/'><Image src='/github-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
+                    <Link href='/'><Image src='/twitter-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
+                    <Link href='/'><Image src='/email-img.png' alt='socials' width={500} height={500} className='w-[1.2rem]' /></Link>
                 </div>
             </div>
             <div className='flex items-center justify-center gap-[10rem] px-6 text-white border-b-2 border-slate-600'>

@@ -5,7 +5,7 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h1>Snehansu | Portfolio</h1>
+
       <About />
 
     </div>
