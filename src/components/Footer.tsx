@@ -15,7 +15,7 @@ const Footer = () => {
             <div className=' py-4 flex gap-5 sm:gap-0 justify-between items-center border-b-[0.1rem] border-gray-500 pr-4'>
 
 
-                <h1 className={`${bebas.className} text-[1.3rem] sm:text-[2rem] leading-[2rem] text-white`}>LETS CONNECT.</h1>
+                <h1 className={`${bebas.className} text-[1.3rem] sm:text-[2rem] leading-[2rem] text-white`}>LET&apos;S CONNECT.</h1>
                 <div className='flex items-center justify-center gap-4 sm:gap-8 md:gap-12'>
                     <Link href='https://www.linkedin.com/in/snehansu-behera-314b17258/'><Image src='/linkedin-img.png' alt='socials' width={500} height={500} className='w-[1rem] sm:w-[1.2rem]' /></Link>
                     <Link href='https://github.com/SnehansuBehera'><Image src='/github-img.png' alt='socials' width={500} height={500} className='w-[1rem] sm:w-[1.2rem]' /></Link>
