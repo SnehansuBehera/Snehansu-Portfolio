@@ -8,7 +8,7 @@ import Link from 'next/link';
 const bebas = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 const Projects = () => {
     return (
-        <div className='max-w-[1100px] mx-[4vw] lg:mx-auto pb-20'>
+        <div id='projects' className='max-w-[1100px] mx-[4vw] lg:mx-auto pb-20'>
             <h1 className={`${bebas.className} text-center w-[11rem] mx-auto text-[3.5rem] border-b-2 border-gray-500`}>Projects</h1>
             <div className='flex flex-wrap gap-4 items-center justify-center my-6 '>
                 <div className='duration-1000 delay-150 w-full sm:w-[18rem] md:w-auto flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-6'>
@@ -44,6 +44,30 @@ const Projects = () => {
                         </div>
                     </div>
                     <p className='text-[0.85rem] text-gray-400 text-wrap'>NEXTjs TAILWIND TYPESCRIPT<br />MONGODB NODEMAILER </p>
+
+                </div>
+                <div className='duration-1000 delay-150 w-full sm:w-[18rem] md:w-auto flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-4'>
+                    <Image src='/project5.png' alt='project-img' width={500} height={500} className='w-full sm:w-[19rem] rounded-md hover:contrast-50' />
+                    <div className='flex items-center justify-between gap-4'>
+                        <p className='text-[1rem] font-bold text-black'>bookyourMeal <br /><span className='font-light'>MEALS APP</span></p>
+                        <div className='flex gap-4 items-center pr-1'>
+                            {/* <Link href='https://authentication-using-nextjs.vercel.app'><PiLinkLight size={26} /></Link> */}
+                            <Link href='https://github.com/SnehansuBehera/bookyourMeal'><PiGithubLogoThin size={26} /></Link>
+                        </div>
+                    </div>
+                    <p className='text-[0.85rem] text-gray-400 text-wrap'>REACTjs TAILWIND NODEjs<br />MONGODB EXPRESSjs REDUX TOOLKIT </p>
+
+                </div>
+                <div className='duration-1000 delay-150 w-full sm:w-[18rem] md:w-auto flex flex-col gap-4 justify-center rounded-md shadow-md shadow-gray-200 px-4 py-4'>
+                    <Image src='/project4.png' alt='project-img' width={500} height={500} className='w-full sm:w-[19rem] rounded-md hover:contrast-50' />
+                    <div className='flex items-center justify-between gap-4'>
+                        <p className='text-[1rem] font-bold text-black'>QUICKY <br /><span className='font-light'>CHAT APP</span></p>
+                        <div className='flex gap-4 items-center pr-1'>
+                            {/* <Link href='https://authentication-using-nextjs.vercel.app'><PiLinkLight size={26} /></Link> */}
+                            <Link href='https://github.com/SnehansuBehera/Quicky'><PiGithubLogoThin size={26} /></Link>
+                        </div>
+                    </div>
+                    <p className='text-[0.85rem] text-gray-400 text-wrap'>NEXTjs TAILWIND TYPESCRIPT<br />MONGODB NEXTAUTH.js PUSHER PRISMA ORM </p>
 
                 </div>
 

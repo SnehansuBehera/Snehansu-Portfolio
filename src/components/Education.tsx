@@ -6,7 +6,7 @@ const bebas = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 
 const Education = () => {
     return (
-        <div className='xl:px-20 my-5 flex flex-wrap md:flex-nowrap gap-12 sm:gap-24'>
+        <div id='education' className='xl:px-20 my-5 flex flex-wrap md:flex-nowrap gap-12 sm:gap-24'>
             <div>
                 <h1 className={`${bebas.className} text-[2rem] w-[6.6rem] pt-4 leading-5 border-t-2 border-gray-400 pb-8`}>EDUCATION</h1>
                 <div className='px-4 flex items-center justify-start gap-4 sm:gap-10'>

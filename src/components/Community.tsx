@@ -25,7 +25,6 @@ const Community = () => {
                         <p className='text-[0.85rem] text-gray-500'>Aug 2023 - Jan 2024</p>
                     </div>
                 </div>
-
             </div>
         </div>
     )

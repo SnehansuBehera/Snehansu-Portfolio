@@ -13,11 +13,15 @@ const Skills = () => {
                 <Image src='/skills/typescript-icon.svg' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/tailwind-logo.svg' alt='skills' width={500} height={500} className='w-[5rem] sm:w-[6rem]' />
                 <Image src='/skills/React-logo.svg' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
+                <Image src='/skills/prismaORM-logo.svg' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/Next-logo.webp' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/Notion-logo.webp' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
+                {/* <Image src='/skills/postgresql.png' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' /> */}
+                <Image src='/skills/next-authjs.webp' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/node-logo.webp' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/expressjs.png' alt='skills' width={500} height={500} className='w-[3rem] sm:w-[4rem]' />
                 <Image src='/skills/mongodb-icon.svg' alt='skills' width={500} height={500} className='w-[2rem]' />
+
 
 
             </div>

@@ -10,7 +10,7 @@ import Education from './Education'
 
 const About = () => {
     return (
-        <div className='max-w-[1100px] mx-4 sm:mx-[4vw] xl:mx-auto my-6 pb-4'>
+        <div id='about' className='max-w-[1100px] mx-4 sm:mx-[4vw] xl:mx-auto my-6 pb-4'>
             <h1 className={`${bebas.className} text-center text-[3.5rem]`}>ABOUT</h1>
             <p className=' font-light text-[0.7rem] w-[16rem] sm:w-[22.6rem] sm:text-[1rem] md:text-[1rem] mx-auto border-t-2 border-gray-500 pt-2'>KOLKATA BASED TECH + SPORTS ENTHUSIAST</p>
             <div className='py-8 flex flex-wrap items-center justify-center gap-6 md:gap-6 lg:gap-8'>
