@@ -79,7 +79,7 @@ const Projects = () => {
                             </div>
                             <div className='flex justify-start items-center gap-2 flex-wrap w-[16.5rem] sm:w-[20rem]'>
                                 {product.techStack.map((tech: any) => (
-                                    <p className='text-[0.85rem] text-zinc-500 leading-[0.85rem]'>{tech}</p>
+                                    <p key={tech[0]} className='text-[0.85rem] text-zinc-500 leading-[0.85rem]'>{tech}</p>
                                 ))}
                             </div>
 
