@@ -54,7 +54,7 @@ export const ProjectsData = [
         name: "QUICKY",
         subname: "CHAT APP",
         techStack: ["NEXTjs", "TAILWIND", "TYPESCRIPT", "MONGODB", "NEXTAUTH.js", "PUSHER", "PRISMA ORM"],
-        website: "",
+        website: "https://quicky.up.railway.app/",
         github: "https://github.com/SnehansuBehera/RAG-Chatbot",
         img: "/project6.png"
 
